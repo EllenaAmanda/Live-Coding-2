@@ -8,5 +8,10 @@ let arrInput = [1,4,6,7]
 
 arrInput.map(item =>{
     let hasil = item*2
-    console.log(hasil)
+    let hasilArray = []
+
+    hasil.push(hasil)
+    console.log(hasilArray)
 })
+
+console.log(arrInput.reverse())
