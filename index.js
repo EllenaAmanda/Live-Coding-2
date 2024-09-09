@@ -6,12 +6,11 @@
 
 let arrInput = [1,4,6,7]
 
-arrInput.map(item =>{
-    let hasil = item*2
-    let hasilArray = []
 
-    hasil.push(hasil)
-    console.log(hasilArray)
+
+let arrayInputNew = arrInput.map(item =>{
+    return item * 2
 })
 
-console.log(arrInput.reverse())
+console.log(arrayInputNew.reverse())
+
